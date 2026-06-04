@@ -1,0 +1,29 @@
+.search-container {
+    width: 300px;
+    position: relative;
+}
+
+#in {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#output {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#output li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#output li:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,10 @@
+#btns {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    height: 48px;
+    font-size: 24px;
+}
